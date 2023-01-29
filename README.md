@@ -2,6 +2,9 @@
 This python script convert your pptx file's text color to black and backgroud color to white.You can't convert ppt files because python-pptx doesn't support ppt files.
 
 # You can convert file by following steps.
+- `makdir opt/target_files`
+- `mkdir opt/converted_files`
+- `mkdir opt/done_files`
 - Copy the files you want to convert into the taget_files direcotry
 - `docker-compose up -d`
 - `docker-compose exec php bash`
