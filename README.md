@@ -3,7 +3,7 @@ This python script convert your pptx file's text color to black and backgroud co
 
 # You can convert file by following steps.
 ## Make direcotries
-- `makdir opt/target_files`
+- `mkdir opt/target_files`
 - `mkdir opt/converted_files`
 - `mkdir opt/done_files`
 - Copy the files you want to convert into the taget_files direcotry
