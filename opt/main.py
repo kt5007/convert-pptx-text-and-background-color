@@ -21,6 +21,7 @@ def convert_text_and_background_color(target_file_path,save_file_path):
                 continue
             for paragraph in shape.text_frame.paragraphs:
                 for run in paragraph.runs:
+                    # Change text color to black
                     run.font.color.rgb = RGBColor(0, 0, 0)
     prs.save(save_file_path)
 
